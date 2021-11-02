@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGParameters suite]">
+  <test name="Yahoo login test(failed)">
+    <parameter name="password" value="Accolite@1307"/>
+    <parameter name="emailid" value="pankaj_cadbury101@yahoo.co.in"/>
+    <parameter name="url" value="https://login.yahoo.com/"/>
+    <classes>
+      <class name="TestNGParameters.TestNGParametersTest">
+        <methods>
+          <include name="YahooLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGParameters.TestNGParametersTest -->
+    </classes>
+  </test> <!-- Yahoo login test(failed) -->
+</suite> <!-- Failed suite [TestNGParameters suite] -->

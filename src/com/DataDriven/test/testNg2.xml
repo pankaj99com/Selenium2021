@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Automation suite">
+	<listeners>
+		
+		<listener class-name="com.DataDriven.test.MyTransformer2" />
+	</listeners>
+	<test name="RetryMultiplefailesTestcases">
+		
+			<classes>
+
+			
+				<class name="com.DataDriven.test.LoginTest" />
+
+
+			</classes>
+		</test>
+</suite>

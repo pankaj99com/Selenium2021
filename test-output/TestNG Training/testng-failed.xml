@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Training]">
+  <test name="TestNG  Concepts(failed)">
+    <classes>
+      <class name="TestNgConcepts.TestNgAnnotations">
+        <methods>
+          <include name="logout"/>
+          <include name="lauchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="generateTestReport"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="deleteAllCookies"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNgConcepts.TestNgAnnotations -->
+      <class name="TestNgConcepts.InvocationTimeOutTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- TestNgConcepts.InvocationTimeOutTest -->
+      <class name="TestNgConcepts.AnnotationsGoogleTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNgConcepts.AnnotationsGoogleTest -->
+      <class name="TestNgConcepts.AssertionsInTestNG">
+        <methods>
+          <include name="setup"/>
+          <include name="titleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNgConcepts.AssertionsInTestNG -->
+    </classes>
+  </test> <!-- TestNG  Concepts(failed) -->
+</suite> <!-- Failed suite [TestNG Training] -->

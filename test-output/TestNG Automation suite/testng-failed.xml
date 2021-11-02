@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Automation suite]">
+  <listeners>
+    <listener class-name="com.DataDriven.test.MyTransformer"/>
+  </listeners>
+  <test name="RetryMultiplefailesTestcases(failed)">
+    <classes>
+      <class name="com.DataDriven.test.RetryLogicTest">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.DataDriven.test.RetryLogicTest -->
+    </classes>
+  </test> <!-- RetryMultiplefailesTestcases(failed) -->
+</suite> <!-- Failed suite [TestNG Automation suite] -->

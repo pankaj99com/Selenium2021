@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+  <test name="Test">
+    <classes>
+      <class name="TestNgConcepts.TestNgDependsOnMethod"/>
+      <class name="TestNgConcepts.ExpectedExceptionInTestNG"/>
+      <class name="TestNgConcepts.InvocationTimeOutTest"/>
+      <class name="TestNgConcepts.RetryLogicTest1"/>
+      <class name="TestNgConcepts.AssertionsInTestNG"/>
+      <class name="TestNgConcepts.DataProviderTestWithoutExcel"/>
+      <class name="TestNgConcepts.RetryLogicTest"/>
+      <class name="TestNgConcepts.InvocationCount"/>
+      <class name="TestNgConcepts.TestNgAnnotations"/>
+      <class name="TestNgConcepts.DataProviderTestWithExcel"/>
+      <class name="TestNgConcepts.AnnotationsGoogleTest"/>
+      <class name="TestNgConcepts.SoftAssertTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
